@@ -1,8 +1,9 @@
 # 🛸 FleetSentinel: Enterprise Server Health Suite
 > **Defensive, Automated, and Robust. Monitor your infrastructure like a Pro.**
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=red&height=120&section=header&text=FLEET%20SENTINEL&fontSize=70&fontColor=000000" />
+  <a href="https://github.com/Kurtbey1/Server-Health-Care">
+    <img src="https://img.shields.io/badge/FLEET%20SENTINEL-INFRASTRUCTURE%20MONITOR-red?style=for-the-badge&labelColor=black&logo=target" width="100%" />
+  </a>
 </p>
 
 <p align="center">
