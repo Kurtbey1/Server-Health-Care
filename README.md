@@ -1,31 +1,36 @@
-#🛰️ Remote Server Health Suite
-A professional, defensive Bash script for monitoring fleet health. This tool automates the process of checking system vitals across multiple remote servers using secure SSH tunneling.
+# 🛸 FleetSentinel: Enterprise Server Health Suite
+> **Defensive, Automated, and Robust. Monitor your infrastructure like a Pro.**
 
-🛠️ Key Architectural Features
-Strict Error Handling: Uses set -euo pipefail to ensure the script terminates safely on any command failure or undefined variable.
+[![Security: Strict Mode](https://img.shields.io/badge/Security-Strict_Mode-red.svg?style=for-the-badge)](https://github.com/Kurtbey1/Server-Health-Care)
+[![Shell: Bash](https://img.shields.io/badge/Shell-Bash_5.0+-4EAA25.svg?style=for-the-badge)](https://www.gnu.org/software/bash/)
+[![Uptime: 99.9%](https://img.shields.io/badge/Reliability-Proven-blue.svg?style=for-the-badge)](https://github.com/Kurtbey1/Server-Health-Care)
 
-Log Lifecycle Management: Implements a self-cleaning mechanism using trap to handle temporary log files, ensuring no clutter is left on the host system.
+```text
+    __  ___      __     __    __  __               
+   /  |/  /___  / /_   / /   / / / /____  ____ ___ 
+  / /|_/ / __ \/ __ \ / /   / /_/ / __  \/ __ `__ \
+ / /  / / /_/ / /_/ // /___/ __  / /_/ / / / / / / /
+/_/  /_/\____/_.___//_____/_/ /_/\____/_/ /_/ /_/ / 
+        THE SENTINEL OF YOUR INFRASTRUCTURE
+```
 
-Non-Intrusive SSH: Designed with -n and ConnectTimeout to handle unresponsive hosts without hanging the main process.
+🛡️ Why FleetSentinel?
+Standard monitoring tools are often heavy and hard to configure. FleetSentinel is a lightweight, zero-dependency Bash engine that gives you raw, honest diagnostics through secure SSH tunnels.
 
-Security Insight: Scans remote /var/log/auth.log for failed password attempts to detect potential brute-force attacks.
+🔴 Critical Defensive Layers (Safety First)
+```Diff
+- 1. EXIT ON ERROR: Uses 'set -euo pipefail'. If a command fails, the script dies safely.
+- 2. ZERO CLUTTER: The 'trap' mechanism wipes all temporary logs even if you kill the process.
+- 3. NON-BLOCKING: Built-in 'ConnectTimeout' ensures a dead server doesn't freeze your audit.
+- 4. SECURE AUTH: Designed specifically for SSH-Key environments.
+```
 
-📊 Diagnostics Covered
-The script fetches and calculates the following for each remote machine:
-
-System Uptime: How long the server has been running.
-
-Disk Integrity: Current usage percentage of the Root (/) partition.
-
-Memory Optimization: Precise calculation of used vs. total memory (percentage based).
-
-Security Audit: Count of failed login attempts.
-
-🚀 Installation & Usage
-1. Requirements
-SSH Key-based authentication (to run without password prompts).
-
-Remote user should have read access to system logs.
+| Metric | Intelligence Gathered | Alert Threshold |
+| :--- | :--- | :---: |
+| **System Uptime** | Precise days/hours/minutes | 🟢 |
+| **Disk Integrity** | Root (/) partition usage analysis | 🟠 > 80% |
+| **RAM Utilization** | Live calculation of Used vs Total (MB) | 🔴 > 90% |
+| **Security Audit** | Bruteforce detection via `/var/log/auth.log` | 💀 |
 
 2. Setup
 
