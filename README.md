@@ -1,9 +1,15 @@
-## 🛸 FleetSentinel: Enterprise Server Health Suite
+# 🛸 FleetSentinel: Enterprise Server Health Suite
 > **Defensive, Automated, and Robust. Monitor your infrastructure like a Pro.**
 
-[![Security: Strict Mode](https://img.shields.io/badge/Security-Strict_Mode-red.svg?style=for-the-badge)](https://github.com/Kurtbey1/Server-Health-Care)
-[![Shell: Bash](https://img.shields.io/badge/Shell-Bash_5.0+-4EAA25.svg?style=for-the-badge)](https://www.gnu.org/software/bash/)
-[![Uptime: 99.9%](https://img.shields.io/badge/Reliability-Proven-blue.svg?style=for-the-badge)](https://github.com/Kurtbey1/Server-Health-Care)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=red&height=120&section=header&text=FLEET%20SENTINEL&fontSize=70&fontColor=000000" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Security-STRICT_MODE-black?style=for-the-badge&logo=shred&logoColor=red" />
+  <img src="https://img.shields.io/badge/System-LINUX-red?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Core-BASH-black?style=for-the-badge&logo=gnu-bash&logoColor=red" />
+</p>
 
 ```text
     __  ___      __     __    __  __               
