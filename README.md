@@ -1,4 +1,4 @@
-🛰️ Remote Server Health Suite
+#🛰️ Remote Server Health Suite
 A professional, defensive Bash script for monitoring fleet health. This tool automates the process of checking system vitals across multiple remote servers using secure SSH tunneling.
 
 🛠️ Key Architectural Features
