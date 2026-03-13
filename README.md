@@ -1,4 +1,4 @@
-# 🛸 FleetSentinel: Enterprise Server Health Suite
+## 🛸 FleetSentinel: Enterprise Server Health Suite
 > **Defensive, Automated, and Robust. Monitor your infrastructure like a Pro.**
 
 [![Security: Strict Mode](https://img.shields.io/badge/Security-Strict_Mode-red.svg?style=for-the-badge)](https://github.com/Kurtbey1/Server-Health-Care)
@@ -56,8 +56,15 @@ Run the check:
 ```bash
 ./health_check.sh -f servers.txt -u username
 ```
-⚙️ Command Line Arguments 
-Argument Description -f Path to the file containing server list.-u SSH Username for remote access.-h Display help and usage information.
+## ⚙️ Command Line Arguments
+
+| Argument | Description |
+| :---: | :--- |
+| `-f` | **Path** to the file containing server list (one per line). |
+| `-u` | **SSH Username** for remote access. |
+| `-h` | Display help and usage information. |
+
+
 🏗️ Future Roadmap
 [ ] Add Parallel execution (Background jobs) for faster scanning of large clusters.
 
